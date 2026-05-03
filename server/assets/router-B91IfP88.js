@@ -1,4 +1,4 @@
-import { r as reactExports, f as functionalUpdate, a as arraysEqual, c as createLRUCache, i as isPromise, b as isRedirect, d as isNotFound, e as invariant, g as createControlledPromise, h as rootRouteId, j as isServer, k as compileDecodeCharMap, t as trimPath, l as rewriteBasepath, m as composeRewrites, p as processRouteTree, n as processRouteMasks, o as resolvePath, q as cleanPath, s as trimPathRight, u as parseHref, v as executeRewriteInput, w as isDangerousProtocol, x as redirect, y as findSingleMatch, z as deepEqual, D as DEFAULT_PROTOCOL_ALLOWLIST, A as interpolatePath, B as nullReplaceEqualDeep, C as replaceEqualDeep, E as last, F as decodePath, G as findFlatMatch, H as findRouteMatch, I as executeRewriteOutput, J as encodePathLikeUrl, K as trimPathLeft, L as joinPaths, M as useRouter, N as dummyMatchContext, O as matchContext, P as requireReactDom, Q as exactPathTest, R as removeTrailingSlash, S as React, T as jsxRuntimeExports, U as isModuleNotFoundError, V as useHydrated, W as escapeHtml, X as getAssetCrossOrigin, Y as resolveManifestAssetLink, Z as Outlet } from "./worker-entry-CqU13SVh.js";
+import { r as reactExports, f as functionalUpdate, a as arraysEqual, c as createLRUCache, i as isPromise, b as isRedirect, d as isNotFound, e as invariant, g as createControlledPromise, h as rootRouteId, j as isServer, k as compileDecodeCharMap, t as trimPath, l as rewriteBasepath, m as composeRewrites, p as processRouteTree, n as processRouteMasks, o as resolvePath, q as cleanPath, s as trimPathRight, u as parseHref, v as executeRewriteInput, w as isDangerousProtocol, x as redirect, y as findSingleMatch, z as deepEqual, D as DEFAULT_PROTOCOL_ALLOWLIST, A as interpolatePath, B as nullReplaceEqualDeep, C as replaceEqualDeep, E as last, F as decodePath, G as findFlatMatch, H as findRouteMatch, I as executeRewriteOutput, J as encodePathLikeUrl, K as trimPathLeft, L as joinPaths, M as useRouter, N as dummyMatchContext, O as matchContext, P as requireReactDom, Q as exactPathTest, R as removeTrailingSlash, S as React, T as jsxRuntimeExports, U as isModuleNotFoundError, V as useHydrated, W as escapeHtml, X as getAssetCrossOrigin, Y as resolveManifestAssetLink, Z as Outlet } from "./worker-entry-De1mu5Xb.js";
 var reactUse = reactExports.use;
 function useForwardedRef(ref) {
   const innerRef = reactExports.useRef(null);
@@ -2666,7 +2666,7 @@ function renderScripts(router2, scripts, assetScripts) {
     key: `tsr-scripts-${asset.tag}-${i}`
   })) });
 }
-const appCss = "/assets/styles-D6fyXtqm.css";
+const appCss = "/world-of-emna/assets/styles-D6fyXtqm.css";
 function NotFoundComponent() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex min-h-screen items-center justify-center bg-background px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-md text-center", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-7xl font-bold text-foreground", children: "404" }),
@@ -2723,8 +2723,8 @@ function RootShell({ children }) {
 function RootComponent() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {});
 }
-const heroPortrait = "/assets/welcome-girl-BI4LgzCi.jpg";
-const $$splitComponentImporter = () => import("./index-Bs3VdKOm.js");
+const heroPortrait = "/world-of-emna/assets/welcome-girl-BI4LgzCi.jpg";
+const $$splitComponentImporter = () => import("./index-CcbgFIYR.js");
 const Route2 = createFileRoute("/")({
   component: lazyRouteComponent($$splitComponentImporter, "component"),
   head: () => ({
@@ -2805,6 +2805,8 @@ function DefaultErrorComponent({ error, reset }) {
 const getRouter = () => {
   const router2 = createRouter({
     routeTree,
+    basepath: "/world-of-emna",
+    // ← ADD THIS LINE
     context: {},
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,

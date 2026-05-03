@@ -1,5 +1,5 @@
-import { r as reactExports, T as jsxRuntimeExports } from "./worker-entry-CqU13SVh.js";
-import { h as heroPortrait } from "./router-DxsnI-lN.js";
+import { r as reactExports, T as jsxRuntimeExports } from "./worker-entry-De1mu5Xb.js";
+import { h as heroPortrait } from "./router-B91IfP88.js";
 import "node:events";
 import "node:async_hooks";
 import "node:stream/web";
@@ -882,15 +882,15 @@ function OwnerLogin({ onSuccess, onClose }) {
       ` })
   ] });
 }
-const drawnGirl = "/assets/drawn-girl-DpgIn1s3.png";
-const signature = "/assets/signature-v2-C_Hc0PGX.png";
-const pWhereMind = "/assets/proj-where-mind-Ce9rr2MP.jpg";
-const pAllYours = "/assets/proj-all-yours-Dtw5LlYx.jpg";
-const pCurtain = "/assets/proj-curtain-CBj053Df.jpg";
-const pSurob = "/assets/proj-surob-wQw010Xz.jpg";
-const pMedbiova = "/assets/proj-medbiova-BRozgnql.jpg";
-const pMural = "/assets/proj-mural-C5fkoT-U.jpg";
-const pFashion = "/assets/proj-fashion-dV4ygbea.jpg";
+const drawnGirl = "/world-of-emna/assets/drawn-girl-DpgIn1s3.png";
+const signature = "/world-of-emna/assets/signature-v2-C_Hc0PGX.png";
+const pWhereMind = "/world-of-emna/assets/proj-where-mind-Ce9rr2MP.jpg";
+const pAllYours = "/world-of-emna/assets/proj-all-yours-Dtw5LlYx.jpg";
+const pCurtain = "/world-of-emna/assets/proj-curtain-CBj053Df.jpg";
+const pSurob = "/world-of-emna/assets/proj-surob-wQw010Xz.jpg";
+const pMedbiova = "/world-of-emna/assets/proj-medbiova-BRozgnql.jpg";
+const pMural = "/world-of-emna/assets/proj-mural-C5fkoT-U.jpg";
+const pFashion = "/world-of-emna/assets/proj-fashion-dV4ygbea.jpg";
 const defaultCategories = [{
   id: "the-hand",
   kicker: "The Hand",
