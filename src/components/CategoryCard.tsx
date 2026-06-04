@@ -31,7 +31,6 @@ export function CategoryCard({
   return (
     <div
       className={`group relative ${isLarge ? "md:col-span-2 md:row-span-2" : ""}`}
-      style={{ transformStyle: "preserve-3d" }}
     >
       <button
         onClick={() => onOpen(category)}
